@@ -1,0 +1,20 @@
+{
+  "scan_directories": [
+    "."
+  ],
+  "report_dir": "./reports",
+  "log_dir": "./logs",
+  "top_n": 5,
+  "warning_threshold_percent": 80,
+  "critical_threshold_percent": 90,
+  "old_file_days": 180,
+  "email": {
+    "enabled": false,
+    "smtp_host": "",
+    "smtp_port": 587,
+    "username": "",
+    "password_env": "STORAGE_HEALTH_EMAIL_PASSWORD",
+    "recipient": "",
+    "sender": ""
+  }
+}
